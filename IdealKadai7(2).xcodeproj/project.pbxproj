@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		954AD14527888C7B00AA7C02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954AD14427888C7B00AA7C02 /* AppDelegate.swift */; };
+		954AD14727888C7B00AA7C02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954AD14627888C7B00AA7C02 /* SceneDelegate.swift */; };
+		954AD14C27888C7B00AA7C02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954AD14A27888C7B00AA7C02 /* Main.storyboard */; };
+		954AD14E27888C7C00AA7C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954AD14D27888C7C00AA7C02 /* Assets.xcassets */; };
+		954AD15127888C7C00AA7C02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954AD14F27888C7C00AA7C02 /* LaunchScreen.storyboard */; };
+		954AD15A278955C500AA7C02 /* Addtion.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954AD158278955C500AA7C02 /* Addtion.storyboard */; };
+		954AD15D2789560F00AA7C02 /* Subtraction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954AD15B2789560F00AA7C02 /* Subtraction.storyboard */; };
+		954AD15F27895B7300AA7C02 /* AdditionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954AD15E27895B7300AA7C02 /* AdditionViewController.swift */; };
+		954AD16127895B8400AA7C02 /* SubtractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954AD16027895B8400AA7C02 /* SubtractionViewController.swift */; };
+		954AD16627895C2F00AA7C02 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954AD16527895C2F00AA7C02 /* Calculator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		954AD14127888C7B00AA7C02 /* IdealKadai7(2).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IdealKadai7(2).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		954AD14427888C7B00AA7C02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		954AD14627888C7B00AA7C02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		954AD14B27888C7B00AA7C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		954AD14D27888C7C00AA7C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		954AD15027888C7C00AA7C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		954AD15227888C7C00AA7C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954AD159278955C500AA7C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "IdealKadai7(2)/Base.lproj/Addtion.storyboard"; sourceTree = "<group>"; };
+		954AD15C2789560F00AA7C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "IdealKadai7(2)/Base.lproj/Subtraction.storyboard"; sourceTree = "<group>"; };
+		954AD15E27895B7300AA7C02 /* AdditionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionViewController.swift; sourceTree = "<group>"; };
+		954AD16027895B8400AA7C02 /* SubtractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtractionViewController.swift; sourceTree = "<group>"; };
+		954AD16527895C2F00AA7C02 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		954AD13E27888C7B00AA7C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		954AD13827888C7B00AA7C02 = {
+			isa = PBXGroup;
+			children = (
+				954AD14327888C7B00AA7C02 /* IdealKadai7(2) */,
+				954AD14227888C7B00AA7C02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		954AD14227888C7B00AA7C02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				954AD14127888C7B00AA7C02 /* IdealKadai7(2).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		954AD14327888C7B00AA7C02 /* IdealKadai7(2) */ = {
+			isa = PBXGroup;
+			children = (
+				954AD16427895C0500AA7C02 /* Models */,
+				954AD16227895BAC00AA7C02 /* View */,
+				954AD16327895BD500AA7C02 /* Controllers */,
+				954AD14427888C7B00AA7C02 /* AppDelegate.swift */,
+				954AD14627888C7B00AA7C02 /* SceneDelegate.swift */,
+				954AD14D27888C7C00AA7C02 /* Assets.xcassets */,
+				954AD14F27888C7C00AA7C02 /* LaunchScreen.storyboard */,
+				954AD15227888C7C00AA7C02 /* Info.plist */,
+			);
+			path = "IdealKadai7(2)";
+			sourceTree = "<group>";
+		};
+		954AD16227895BAC00AA7C02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				954AD158278955C500AA7C02 /* Addtion.storyboard */,
+				954AD15B2789560F00AA7C02 /* Subtraction.storyboard */,
+				954AD14A27888C7B00AA7C02 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		954AD16327895BD500AA7C02 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				954AD15E27895B7300AA7C02 /* AdditionViewController.swift */,
+				954AD16027895B8400AA7C02 /* SubtractionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		954AD16427895C0500AA7C02 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				954AD16527895C2F00AA7C02 /* Calculator.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		954AD14027888C7B00AA7C02 /* IdealKadai7(2) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954AD15527888C7C00AA7C02 /* Build configuration list for PBXNativeTarget "IdealKadai7(2)" */;
+			buildPhases = (
+				954AD13D27888C7B00AA7C02 /* Sources */,
+				954AD13E27888C7B00AA7C02 /* Frameworks */,
+				954AD13F27888C7B00AA7C02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IdealKadai7(2)";
+			productName = "IdealKadai7(2)";
+			productReference = 954AD14127888C7B00AA7C02 /* IdealKadai7(2).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		954AD13927888C7B00AA7C02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					954AD14027888C7B00AA7C02 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 954AD13C27888C7B00AA7C02 /* Build configuration list for PBXProject "IdealKadai7(2)" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 954AD13827888C7B00AA7C02;
+			productRefGroup = 954AD14227888C7B00AA7C02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				954AD14027888C7B00AA7C02 /* IdealKadai7(2) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		954AD13F27888C7B00AA7C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954AD15D2789560F00AA7C02 /* Subtraction.storyboard in Resources */,
+				954AD15A278955C500AA7C02 /* Addtion.storyboard in Resources */,
+				954AD15127888C7C00AA7C02 /* LaunchScreen.storyboard in Resources */,
+				954AD14E27888C7C00AA7C02 /* Assets.xcassets in Resources */,
+				954AD14C27888C7B00AA7C02 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		954AD13D27888C7B00AA7C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954AD14527888C7B00AA7C02 /* AppDelegate.swift in Sources */,
+				954AD15F27895B7300AA7C02 /* AdditionViewController.swift in Sources */,
+				954AD16127895B8400AA7C02 /* SubtractionViewController.swift in Sources */,
+				954AD16627895C2F00AA7C02 /* Calculator.swift in Sources */,
+				954AD14727888C7B00AA7C02 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		954AD14A27888C7B00AA7C02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				954AD14B27888C7B00AA7C02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		954AD14F27888C7C00AA7C02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				954AD15027888C7C00AA7C02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		954AD158278955C500AA7C02 /* Addtion.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				954AD159278955C500AA7C02 /* Base */,
+			);
+			name = Addtion.storyboard;
+			sourceTree = "<group>";
+		};
+		954AD15B2789560F00AA7C02 /* Subtraction.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				954AD15C2789560F00AA7C02 /* Base */,
+			);
+			name = Subtraction.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		954AD15327888C7C00AA7C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		954AD15427888C7C00AA7C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		954AD15627888C7C00AA7C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IdealKadai7(2)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShoutaNakano.IdealKadai7-2-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		954AD15727888C7C00AA7C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IdealKadai7(2)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ShoutaNakano.IdealKadai7-2-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		954AD13C27888C7B00AA7C02 /* Build configuration list for PBXProject "IdealKadai7(2)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954AD15327888C7C00AA7C02 /* Debug */,
+				954AD15427888C7C00AA7C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		954AD15527888C7C00AA7C02 /* Build configuration list for PBXNativeTarget "IdealKadai7(2)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954AD15627888C7C00AA7C02 /* Debug */,
+				954AD15727888C7C00AA7C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 954AD13927888C7B00AA7C02 /* Project object */;
+}
